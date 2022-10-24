@@ -1,0 +1,177 @@
+@rcamelo
+Matlab Repmat Test
+>> A = repmat("e",1,2)
+
+A =
+
+  1x2 string array
+
+    "e"    "e"
+
+>> A = repmat("e",2,1)
+
+A =
+
+  2x1 string array
+
+    "e"
+    "e"
+
+>> A = repmat("e",2,2)
+
+A =
+
+  2x2 string array
+
+    "e"    "e"
+    "e"    "e"
+
+>>
+>> A = repmat("e",2,5)
+
+A =
+
+  2x5 string array
+
+    "e"    "e"    "e"    "e"    "e"
+    "e"    "e"    "e"    "e"    "e"
+
+>> A = repmat("e",5,2)
+
+A =
+
+  5x2 string array
+
+    "e"    "e"
+    "e"    "e"
+    "e"    "e"
+    "e"    "e"
+    "e"    "e"
+
+>> A = repmat(0,1,2)
+
+A =
+
+     0     0
+
+>> A = repmat(0,2,1)
+
+A =
+
+     0
+     0
+
+>> A = repmat(0,2,2)
+
+A =
+
+     0     0
+     0     0
+
+>>
+>> A = repmat(0,2,5)
+
+A =
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+>> A = repmat(0,5,2)
+
+A =
+
+     0     0
+     0     0
+     0     0
+     0     0
+     0     0
+
+>> A = repmat("e",2,2) % Test Matrix
+
+A =
+
+  2x2 string array
+
+    "e"    "e"
+    "e"    "e"
+
+>> B = repmat(A,1,1)
+
+B =
+
+  2x2 string array
+
+    "e"    "e"
+    "e"    "e"
+
+>> B = repmat(A,2,2)
+
+B =
+
+  4x4 string array
+
+    "e"    "e"    "e"    "e"
+    "e"    "e"    "e"    "e"
+    "e"    "e"    "e"    "e"
+    "e"    "e"    "e"    "e"
+
+>> B = repmat(A,1,2)
+
+B =
+
+  2x4 string array
+
+    "e"    "e"    "e"    "e"
+    "e"    "e"    "e"    "e"
+
+>> B = repmat(A,2,1)
+
+B =
+
+  4x2 string array
+
+    "e"    "e"
+    "e"    "e"
+    "e"    "e"
+    "e"    "e"
+
+>> A = repmat(0,2,2) % Test Matrix
+
+A =
+
+     0     0
+     0     0
+
+>> B = repmat(A,1,1)
+
+B =
+
+     0     0
+     0     0
+
+>> B = repmat(A,2,2)
+
+B =
+
+     0     0     0     0
+     0     0     0     0
+     0     0     0     0
+     0     0     0     0
+
+>> B = repmat(A,1,2)
+
+B =
+
+     0     0     0     0
+     0     0     0     0
+
+>> B = repmat(A,2,1)
+
+B =
+
+     0     0
+     0     0
+     0     0
+     0     0
+
+

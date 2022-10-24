@@ -1,0 +1,89 @@
+@rcamelo
+Python Repmat Test
+>>> A = repmat("e",1,2)
+>>> A
+array([['e', 'e']], dtype='<U1')
+>>> A = repmat("e",2,1)
+>>> A
+array([['e'],
+       ['e']], dtype='<U1')
+>>> A = repmat("e",2,2)
+>>> A
+array([['e', 'e'],
+       ['e', 'e']], dtype='<U1')
+>>> A = repmat("e",2,5)
+>>> A
+array([['e', 'e', 'e', 'e', 'e'],
+       ['e', 'e', 'e', 'e', 'e']], dtype='<U1')
+>>> A = repmat("e",5,2)
+>>> A
+array([['e', 'e'],
+       ['e', 'e'],
+       ['e', 'e'],
+       ['e', 'e'],
+       ['e', 'e']], dtype='<U1')
+>>> A = repmat(0,1,2)
+>>> A
+array([[0, 0]])
+>>> A = repmat(0,2,1)
+>>> A
+array([[0],
+       [0]])
+>>> A = repmat(0,2,2)
+>>> A
+array([[0, 0],
+       [0, 0]])
+>>> A = repmat(0,2,5)
+>>> A
+array([[0, 0, 0, 0, 0],
+       [0, 0, 0, 0, 0]])
+>>> A = repmat(0,5,2)
+>>> A
+array([[0, 0],
+       [0, 0],
+       [0, 0],
+       [0, 0],
+       [0, 0]])
+>>> A = repmat("e",2,2) # Test Matrix
+>>> B = repmat(A,1,1)
+>>> B
+array([['e', 'e'],
+       ['e', 'e']], dtype='<U1')
+>>> B = repmat(A,2,2)
+>>> B
+array([['e', 'e', 'e', 'e'],
+       ['e', 'e', 'e', 'e'],
+       ['e', 'e', 'e', 'e'],
+       ['e', 'e', 'e', 'e']], dtype='<U1')
+>>> B = repmat(A,1,2)
+>>> B
+array([['e', 'e', 'e', 'e'],
+       ['e', 'e', 'e', 'e']], dtype='<U1')
+>>> B = repmat(A,2,1)
+>>> B
+array([['e', 'e'],
+       ['e', 'e'],
+       ['e', 'e'],
+       ['e', 'e']], dtype='<U1')
+>>> A = repmat(0,2,2)
+>>> B = repmat(A,1,1)
+>>> B
+array([[0, 0],
+       [0, 0]])
+>>> B = repmat(A,2,2)
+>>> B
+array([[0, 0, 0, 0],
+       [0, 0, 0, 0],
+       [0, 0, 0, 0],
+       [0, 0, 0, 0]])
+>>> B = repmat(A,1,2)
+>>> B
+array([[0, 0, 0, 0],
+       [0, 0, 0, 0]])
+>>> B = repmat(A,2,1)
+>>> B
+array([[0, 0],
+       [0, 0],
+       [0, 0],
+       [0, 0]])
+>>>
