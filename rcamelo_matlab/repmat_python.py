@@ -1,11 +1,10 @@
-from numpy.matlib import repmat
-
 # PROJECT CARA SA
 # repmat equivalence test (numpy matlib repmat)
 # input: (filler/ vector/ matrix, n° of column, n° of rows) always three
 # @author: rcamelo
 # matrix fillers: {string: "e", number: 0}
 # output file name: repmat_python_out.txt
+from numpy.matlib import repmat
 # -----------------------------Matrix Creation tests-----------------------------
 # -----------------One-Two dimentional tests------------------
 # ------------String ---------------
