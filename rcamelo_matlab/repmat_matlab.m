@@ -2,15 +2,15 @@
 % repmat equivalence test (matlab I/O generator)
 % @author: rcamelo
 % matrix fillers: {string: "e", number: 0}
-% output file name: repmat_out.txt
+% output file name: repmat_matlab_out.txt
 % -----------------------------Matrix Creation tests-----------------------------
 % -----------------One-Two dimentional tests------------------
 % ------------String ---------------
-A = repmat("e",1)
-A = repmat("e",1,1,1)
+%A = repmat("e",1)
+%A = repmat("e",1,1,1)
 A = repmat("e",1,2)
 A = repmat("e",2,1)
-A = repmat("e",2)
+%A = repmat("e",2)
 A = repmat("e",2,2)
 
 A = repmat("e",2,5)

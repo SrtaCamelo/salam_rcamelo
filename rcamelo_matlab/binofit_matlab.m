@@ -7,9 +7,9 @@
 %         }
 % output file name: binofit_matlab_out.txt
 
-
+%-------------0.11, 0.23, 0.55, 0,60, 0,90 Expectect Probabilities (in this order)
 %-------------0.95 confidence intervals ----------------
-[phat,pci] = binofit([10, 5,6,8,9],55)
+[phat,pci] = binofit([10, 5,6,8,9],55) 
 [phat,pci] = binofit([11, 15,13,12,14],55)
 [phat,pci] = binofit([26,33,36,27,37],55)
 [phat,pci] = binofit([25,35,39,30,37],55)
