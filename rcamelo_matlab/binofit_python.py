@@ -1,13 +1,7 @@
 # PROJECT CARA SA
-# binofit equivalence test (matlab I/O generator)
+# binofit python equivalent
 # @author: rcamelo
-# @param: {x: n° of success in each individual trial, 
-#          n: n° of individual trials
-#          alpha: "100(1 - alpha)%" confidence intervals. (optional)                     
-#         }
-# output file name: binofit_python_out.txt
 
-#  Generate random binomial samples (successes, trials)
 
 from scipy.stats import binomtest
 

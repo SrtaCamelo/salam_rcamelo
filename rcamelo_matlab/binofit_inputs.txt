@@ -6,8 +6,7 @@
 
 % r = binornd(100,0.6);
 
-% 
-Success, Trials -> Expected Probability
+% Success, Trials -> Expected Probability
 
 
 Success vector, Trials = 55, probability = 0,11
